@@ -1,0 +1,30 @@
+{
+  "name": "crawlee-playground",
+  "version": "1.0.0",
+  "description": "A Crawlee test-run for web crawling functionalities, managing the crawling parameters, and handling different types of rules for web scraping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohit1901/crawlee-playground.git"
+  },
+  "keywords": [
+    "Web",
+    "crawler",
+    "web",
+    "scraper",
+    "crawlee",
+    "node.js",
+    "express.js",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Rohit Khanduri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohit1901/crawlee-playground/issues"
+  },
+  "homepage": "https://github.com/rohit1901/crawlee-playground#readme"
+}
