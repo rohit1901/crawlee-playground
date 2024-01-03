@@ -13,6 +13,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
+storage
 pids
 *.pid
 *.seed
@@ -89,3 +90,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# MacOs files
+.DS_Store
