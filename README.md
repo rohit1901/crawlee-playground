@@ -1,7 +1,3 @@
-Certainly! Here's a template for the documentation of a GitHub repository showcasing Crawlee's web crawling functionalities, parameter management, and rule handling for web scraping:
-
----
-
 # Crawlee Test-Run Repository
 
 Welcome to the Crawlee Test-Run Repository! This repository demonstrates the capabilities of Crawlee, a powerful web crawling tool, showcasing its functionalities, parameter management, and rule handling for efficient web scraping.
@@ -70,7 +66,3 @@ Contributions to improve the test-run or expand Crawlee functionalities are welc
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize and expand this documentation according to your specific repository structure, features, and additional functionalities provided by Crawlee. This documentation aims to serve as a comprehensive guide for users to explore and utilize the Crawlee test-run repository effectively.
