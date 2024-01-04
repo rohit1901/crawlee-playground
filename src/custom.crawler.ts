@@ -20,7 +20,7 @@ import {getCrawler, logErrorToFile} from "./base";
  *   retrieve relevant information from each visited page.
  */
 const scraperConfig: ScraperConfig = {
-    startUrls: ['https://www.sachsen-anhalt.de/startseite'],
+    startUrls: ['some website here'],
     maxRequestsPerCrawl: 50,
     crawlingPatterns: [
         {name: 'title', selector: 'title'},
