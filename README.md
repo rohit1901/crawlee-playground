@@ -26,7 +26,7 @@ Ensure you have the following installed for the Crawlee test-run:
 
 ### Installation
 
-To set up and run the updated Crawlee test-run:
+To set up and run the Crawlee playground:
 
 1. Clone the repository:
 
