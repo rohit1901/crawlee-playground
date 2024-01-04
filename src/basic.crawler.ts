@@ -8,7 +8,7 @@ const crawler = new CheerioCrawler({
         const title = $('title').text();
         log.info(`Title of ${request.loadedUrl} is '${title}'`);
 
-        const news = $('.TopNews .news-textfield h3').map((index, el) => $(el).text());
+        const news = $('.TopNews .news-textfield h3').map((_, el) => $(el).text());
         log.info(`Top news on ${request.loadedUrl}: ${news.get().join(', ')}`);
         // Save results as JSON to ./storage/datasets/default
         await Dataset.pushData({ title, url: request.loadedUrl, news: news.get().toString() });
