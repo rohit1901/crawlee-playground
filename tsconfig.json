@@ -2,13 +2,10 @@
     "extends": "@apify/tsconfig",
     "baseUrl": ".",
     "compilerOptions": {
-        "module": "ESNext",
-        "moduleResolution": "node",
-        "target": "ES2022",
-        "outDir": "dist",
         "allowJs": false,
-        "noUnusedLocals": false,
-        "lib": ["DOM"]
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "outDir": "dist"
     },
     "include": [
         "./src/**/*"

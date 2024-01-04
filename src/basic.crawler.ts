@@ -23,4 +23,4 @@ const crawler = new CheerioCrawler({
 });
 
 // Add first URL to the queue and start the crawl.
-await crawler.run(['some website here']);
+crawler.run(['some website here']).then(() => console.log('Crawler finished!'));
