@@ -1,6 +1,6 @@
 # Crawlee Playground
 
-Welcome to the updated Crawlee Playground Repository! This repository showcases the advanced capabilities of Crawlee, a comprehensive web crawling framework, by demonstrating multiple crawler configurations, parallel execution, and handling complex scenarios like consent pop-ups.
+Welcome to the Crawlee Playground Repository! This repository demonstrates the capabilities of Crawlee, a powerful web crawling tool, showcasing its functionalities, parameter management, and rule handling for efficient web scraping.
 
 ## Overview
 
