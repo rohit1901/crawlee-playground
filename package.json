@@ -18,6 +18,7 @@
     "start:prod": "node dist/main.js",
     "start:dev": "tsx src/basic.crawler.ts",
     "start:custom": "tsx src/custom.crawler.ts",
+    "start:parallel": "tsx src/parallel.crawlers.ts",
     "build": "tsc",
     "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
   },
