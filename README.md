@@ -1,31 +1,32 @@
-# Crawlee Test-Run Repository
+# Crawlee Playground
 
-Welcome to the Crawlee Test-Run Repository! This repository demonstrates the capabilities of Crawlee, a powerful web crawling tool, showcasing its functionalities, parameter management, and rule handling for efficient web scraping.
+Welcome to the updated Crawlee Playground Repository! This repository showcases the advanced capabilities of Crawlee, a comprehensive web crawling framework, by demonstrating multiple crawler configurations, parallel execution, and handling complex scenarios like consent pop-ups.
 
 ## Overview
 
-Crawlee is a versatile web crawling framework built in Node.js that allows users to define crawling rules, manage parameters, and extract data from websites efficiently.
+Crawlee, built with Node.js, is a robust framework designed for efficient and respectful web scraping. It offers flexible configurations and is capable of handling various web scraping challenges.
 
 ### Features Highlight
 
-- **Configurable Crawling:** Define and modify crawling rulesets using a user-friendly interface.
-- **Parameter Management:** Configure crawling parameters such as depth, frequency, and scope.
-- **Rule-Based Crawling:** Create specific rules for crawling (include, exclude, follow, restrict) for targeted data extraction.
-- **Data Extraction:** Extract desired information from crawled pages.
-- **Respectful Crawling:** Abide by robots.txt directives and implement politeness policies.
+- **Multiple Crawler Configurations:** Set up different crawler instances for diverse websites, allowing for customized scraping strategies.
+- **Parallel Execution:** Run multiple crawlers simultaneously for efficient data collection from various sources.
+- **Advanced Data Extraction:** Utilize complex selectors for precise data scraping, enhancing the quality of the extracted information.
+- **Consent Pop-up Handling:** Navigate through modern web complexities like consent pop-ups, ensuring compliance with website policies.
+- **Parameter Management and Rule-Based Crawling:** Retain the capability to configure depth, frequency, scope, and specific rules for targeted data extraction.
+- **Ethical Crawling Practices:** Comply with robots.txt directives and implement politeness policies in scraping activities.
 
 ## Getting Started
 
 ### Prerequisites
 
-To run the Crawlee test-run, ensure you have the following installed:
+Ensure you have the following installed for the Crawlee test-run:
 
-- Node.js (v14 or higher)
+- Node.js (v16 or higher recommended)
 - npm (Node Package Manager)
 
 ### Installation
 
-Follow these steps to set up and run the Crawlee test-run:
+To set up and run the updated Crawlee test-run:
 
 1. Clone the repository:
 
@@ -33,35 +34,54 @@ Follow these steps to set up and run the Crawlee test-run:
    git clone https://github.com/rohit1901/crawlee-playground.git
    ```
 
-2. Install dependencies:
+2. Navigate to the directory and install dependencies:
 
    ```bash
    cd crawlee-playground
    npm install
    ```
 
-3. Start the application:
+3. Run the application using the following commands:
 
    ```bash
    npm start
+   npm start:dev
+   npm start:prod
+   npm start:custom
+   npm start:parallel
    ```
+1. **start**: This is a default script that's commonly used to run the project. In your case, it is set to trigger the `start:dev` script. This means running `npm start` will execute the `start:dev` script.
+
+2. **start:prod**: This script is for starting the application in a production environment. It runs `node dist/main.js`, which suggests that your code is transpiled into JavaScript and placed in the `dist` directory, likely using TypeScript.
+
+3. **start:dev**: This script is for development purposes. It uses `tsx` to run the TypeScript file `src/basic.crawler.ts`. `tsx` is likely a tool or script that allows running TypeScript files directly, possibly with additional development features like hot-reloading.
+
+4. **start:custom**: This script also uses `tsx` to run a different TypeScript file: `src/custom.crawler.ts`. This suggests an alternative or customizable crawler setup for development purposes.
+
+5. **start:parallel**: Similar to the above, this script runs `src/parallel.crawlers.ts` with `tsx`, indicating that this script is used for testing or running multiple crawlers in parallel.
+
+6. **build**: This script runs `tsc`, the TypeScript compiler, which compiles your TypeScript code into JavaScript. The output is typically stored in the `dist` directory, as referenced in the `start:prod` script.
+
+7. **test**: Currently, this script is a placeholder, echoing a message that no tests are set up yet. Typically, this script would run unit tests or other test procedures for your application.
 
 ### Usage
 
-The Crawlee test-run provides a sample interface to configure and run Crawlee for web crawling tasks. Access the application via the provided URL after starting the application.
+This playground allows you to configure and initiate Crawlee for diverse web scraping tasks. The application can be accessed via the provided URL upon starting.
 
 ### Configuration
 
-- **Parameter Configuration:** Set crawling parameters such as depth, frequency, and scope using the intuitive UI.
-- **Rule Definition:** Define rules for crawling (include, exclude, follow, restrict) to tailor the data extraction process.
+- **Multiple Crawler Configurations:** Configure separate crawlers for different websites with unique parameters.
+- **Parallel Execution Setup:** Leverage the capability to run crawlers in parallel for efficient data collection.
+- **Advanced Data Extraction Configuration:** Define complex selectors for precise and relevant data scraping.
+- **Handling Consent Pop-ups:** Learn to manage modern web challenges like consent pop-ups in scraping activities.
 
 ## Repository Structure
 
-TBD
+The repository structure includes separate modules for each crawler configuration, shared utilities, and documentation on handling advanced scenarios.
 
 ## Contributing
 
-Contributions to improve the test-run or expand Crawlee functionalities are welcome! Fork the repository, make your changes, and submit a pull request.
+Your contributions to enhance the Crawlee test-run or expand its functionalities are highly appreciated! Feel free to fork the repository, make your changes, and submit a pull request.
 
 ## License
 
